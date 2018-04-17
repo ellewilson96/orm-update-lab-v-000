@@ -1,5 +1,7 @@
 attr_accessor :id, :name, :grade
 
+class Students 
+
   def self.new_from_db(row)
   new_student = self.new
   new_student.id = row[0]
